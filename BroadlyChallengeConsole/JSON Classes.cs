@@ -8,6 +8,7 @@ namespace BroadlyChallengeConsole
 {
     // classes acquired via PasteSpecial->Paste JSON as classes
     // then, renamed and changed arrays to Lists. 
+    // then, commented out unused fields for nearly-nonexistent performance gain.
 
     public class ChallengePage
     {
@@ -18,10 +19,8 @@ namespace BroadlyChallengeConsole
 
     public class ClassList
     {
-        public string Note { get; set; }
-
-        //public string[] classes { get; set; }
-        // modifying to List<string>
+        //public string Note { get; set; }
+        
         public string[] Classes { get; set; }
 
     }
@@ -29,17 +28,17 @@ namespace BroadlyChallengeConsole
 
     public class Class
     {
-        public string Note { get; set; }
-        public string Room { get; set; }
+       // public string Note { get; set; }
+       // public string Room { get; set; }
         public Student[] Students { get; set; }
         public string Next { get; set; }
     }
 
     public class Student
     {
-        public string Name { get; set; }
+        //public string Name { get; set; }
         public int Age { get; set; }
-        public string Id { get; set; }
+        //public string Id { get; set; }
     }
 
 }

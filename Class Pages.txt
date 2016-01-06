@@ -1,0 +1,13 @@
+http://challenge.broadly.com/
+
+{"note":"This URL leads to a resource with a list of classes.\nEach of these classes has a designated room, and a roaster of students.\nIgnoring students younger than 25 years old, what's the average number of students in each class?","url":"http://challenge.broadly.com/classes"}
+
+
+http://challenge.broadly.com/classes
+
+{"note":"Class list for Mon Jan 04 2016","classes":["http://challenge.broadly.com/class/5d5fe","http://challenge.broadly.com/class/435f2","http://challenge.broadly.com/class/635f4","http://challenge.broadly.com/class/6d5c8","http://challenge.broadly.com/class/795cc","http://challenge.broadly.com/class/4b44c","http://challenge.broadly.com/class/61440","http://challenge.broadly.com/class/69444","http://challenge.broadly.com/class/57458","http://challenge.broadly.com/class/6f45e","http://challenge.broadly.com/class/4d4de"]}
+
+
+http://challenge.broadly.com/class/5d5fe
+
+{"note":"Make sure to read all the notes. They will guide you towards the solution.","room":"101","students":[{"name":"Joan Kim","age":33,"id":"0c62bff97ff7"},{"name":"Juan Mitchell","age":25,"id":"0f9e574895f1"},{"name":"Jeremy Meyer","age":18,"id":"1de9fe258405"},{"name":"Frances Howell","age":33,"id":"269349c7ca57"},{"name":"Kathryn Oliver","age":26,"id":"2714f0a257cf"},{"name":"Phyllis Mills","age":23,"id":"2c640f9b01fe"},{"name":"Melissa Mendoza","age":19,"id":"37015b5357c4"},{"name":"Mary Brown","age":38,"id":"3f1bc9785ccf"},{"name":"Linda Ruiz","age":42,"id":"473fdce7e910"},{"name":"Eugene Anderson","age":33,"id":"4b8532f2aa62"}],"next":"http://challenge.broadly.com/next/babfc"}

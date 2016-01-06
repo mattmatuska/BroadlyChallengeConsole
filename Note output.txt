@@ -1,0 +1,68 @@
+This URL leads to a resource with a list of classes.
+Each of these classes has a designated room, and a roaster of students.Ignoring students younger than 25 years old, 
+what's the average number of students in each class?
+
+Make sure to read all the notes. They will guide you towards the solution.
+
+This class is held in room 101
+
+This class is held in room 101
+
+There are more than 10 students in each class.
+
+This class is held in room 102
+
+This class is held in room 102
+
+This class is held in room 103
+
+This class is held in room 103
+
+This class is held in room 103
+
+This class is held in room 104
+
+This class is held in room 104
+
+This class is held in room 104
+
+This class is held in room 105
+
+This class is held in room 105
+
+This class is held in room 105
+
+Did you time your script? Can you make it any faster?
+
+This class is held in room 201
+
+This class is held in room 201
+
+This class is held in room 202
+
+This class is held in room 202
+
+This class is held in room 202
+
+This class is held in room 203
+
+We're big fans of functional programming. Can you write a solution with no mutab
+le state?
+
+This class is held in room 203
+
+This class is held in room 204
+
+This class is held in room 204
+
+This class is held in room 204
+
+This class is held in room 205
+
+This class is held in room 205
+
+This class is held in room 301
+
+This class is held in room 301
+
+This class is held in room 301
