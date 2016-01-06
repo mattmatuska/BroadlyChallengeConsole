@@ -16,6 +16,7 @@ namespace BroadlyChallengeConsole
     {
         static void Main(string[] args)
         {
+            // If I could find a better web request method, I'd try it. 
             Func<string, string> get_json = web_address => GetJsonWebRequest(web_address);
             
             // Performance: tried a different decoder. Didn't help. 
