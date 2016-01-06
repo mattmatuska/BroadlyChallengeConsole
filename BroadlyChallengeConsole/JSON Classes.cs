@@ -7,39 +7,39 @@ using System.Threading.Tasks;
 namespace BroadlyChallengeConsole
 {
     // classes acquired via PasteSpecial->Paste JSON as classes
-    // then, renamed.
+    // then, renamed and changed arrays to Lists. 
 
     public class ChallengePage
     {
-        public string note { get; set; }
-        public string url { get; set; }
+        public string Note { get; set; }
+        public string Url { get; set; }
     }
 
 
     public class ClassList
     {
-        public string note { get; set; }
+        public string Note { get; set; }
 
         //public string[] classes { get; set; }
         // modifying to List<string>
-        public List<string> classes { get; set; }
+        public string[] Classes { get; set; }
 
     }
 
 
     public class Class
     {
-        public string note { get; set; }
-        public string room { get; set; }
-        public Student[] students { get; set; }
-        public string next { get; set; }
+        public string Note { get; set; }
+        public string Room { get; set; }
+        public Student[] Students { get; set; }
+        public string Next { get; set; }
     }
 
     public class Student
     {
-        public string name { get; set; }
-        public int age { get; set; }
-        public string id { get; set; }
+        public string Name { get; set; }
+        public int Age { get; set; }
+        public string Id { get; set; }
     }
 
 }
